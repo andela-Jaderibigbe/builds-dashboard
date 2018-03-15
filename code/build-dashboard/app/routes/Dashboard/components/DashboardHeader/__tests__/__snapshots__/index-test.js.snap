@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DashboardHeader /> should render correctly 1`] = `
+<div
+  className="tableHeader undefined"
+>
+  <div
+    className="tableRow undefined"
+  >
+    <div
+      className="column changeListCol"
+    >
+      <span>
+        Changelist / Build
+      </span>
+    </div>
+    <div
+      className="column ownerCol"
+    >
+      <span>
+        Owner
+      </span>
+    </div>
+    <div
+      className="column timeCol"
+    >
+      <span>
+        Time Started
+      </span>
+    </div>
+    <div
+      className="column stateCol"
+    >
+      <span>
+        State
+      </span>
+    </div>
+    <div
+      className="column statusCol"
+    >
+      <span>
+        Metrics
+      </span>
+    </div>
+    <div
+      className="column statusCol"
+    >
+      <span>
+        Build
+      </span>
+    </div>
+    <div
+      className="column statusCol"
+    >
+      <span>
+        Unit Test
+      </span>
+    </div>
+    <div
+      className="column statusCol"
+    >
+      <span>
+        Functional Test
+      </span>
+    </div>
+  </div>
+</div>
+`;

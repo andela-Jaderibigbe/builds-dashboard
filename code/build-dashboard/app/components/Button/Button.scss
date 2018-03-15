@@ -1,0 +1,22 @@
+@import 'theme/variables';
+
+.buttonContainer {
+  height: 25px;
+  outline: none;
+  background-color: $blue;
+  color: white;
+  border: none;
+  width: 130px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  line-height: 14px;
+
+  i {
+    margin-right: 5px;
+  }
+}
+
+.buttonContainer:hover {
+  background-color: darken($color: $blue, $amount: 10);
+}

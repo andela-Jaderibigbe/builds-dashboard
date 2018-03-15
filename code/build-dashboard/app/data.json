@@ -1,0 +1,177 @@
+[
+  {
+    "_id": 1,
+    "user": "",
+    "build_name": "Tenrox-R1_1235",
+    "state": "pending",
+    "progress": {
+      "metrics": 0,
+      "build": 0,
+      "unit_test": 0,
+      "functional_test": 0
+    },
+    "stats": {
+      "metrics": null,
+      "build": null,
+      "unit_test": null,
+      "functional_test": null
+    },
+    "time_started": null
+  },
+  {
+    "_id": 2,
+    "user": "jack",
+    "build_name": "432462",
+    "state": "running",
+    "progress": {
+      "metrics": 100,
+      "build": 20,
+      "unit_test": 0,
+      "functional_test": 0
+    },
+    "stats": {
+      "metrics": {
+        "test": 64,
+        "maintainability": 53,
+        "security": 64,
+        "workmanship": 72
+      },
+      "build": null,
+      "unit_test": null,
+      "functional_test": null
+    },
+    "time_started": "2017-10-17T15:48:12.600Z"
+  },
+  {
+    "_id": 3,
+    "user": "samy",
+    "build_name": "432461",
+    "state": "rejected",
+    "progress": {
+      "metrics": 100,
+      "build": 100,
+      "unit_test": 100,
+      "functional_test": 100
+    },
+    "stats": {
+      "metrics": {
+        "test": 64,
+        "maintainability": -53,
+        "security": 64,
+        "workmanship": 72
+      },
+      "build": {
+        "build_date": "2017-10-15T10:48:12.600Z"
+      },
+      "unit_test": {
+        "coverage": 0.76,
+        "test_passing": 0.73,
+        "covered": 142,
+        "missed": 10
+      },
+      "functional_test": {
+        "coverage": 0.23,
+        "test_passing": 0.68,
+        "covered": 4321,
+        "missed": 2145
+      }
+    },
+    "time_started": "2017-10-13T13:48:12.600Z"
+  },
+  {
+    "_id": 4,
+    "user": "",
+    "build_name": "Tenrox-R1_1234",
+    "state": "complete",
+    "progress": {
+      "metrics": 100,
+      "build": 100,
+      "unit_test": 100,
+      "functional_test": 100
+    },
+    "stats": {
+      "metrics": {
+        "test": 64,
+        "maintainability": 53,
+        "security": 64,
+        "workmanship": 72
+      },
+      "build": {
+        "build_date": "2017-10-12T14:48:12.600Z"
+      },
+      "unit_test": {
+        "coverage": 0.76,
+        "test_passing": 0.73,
+        "covered": 142,
+        "missed": 10
+      },
+      "functional_test": {
+        "coverage": 0.23,
+        "test_passing": 0.68,
+        "covered": 4321,
+        "missed": 2145
+      }
+    },
+    "time_started": "2017-10-11T11:48:12.600Z"
+  },
+  {
+    "_id": 5,
+    "user": "samy",
+    "build_name": "432460",
+    "state": "rejected",
+    "progress": {
+      "metrics": 100,
+      "build": 0,
+      "unit_test": 0,
+      "functional_test": 0
+    },
+    "stats": {
+      "metrics": {
+        "test": 64,
+        "maintainability": -53,
+        "security": 64,
+        "workmanship": 72
+      },
+      "build": null,
+      "unit_test": null,
+      "functional_test": null
+    },
+    "time_started": "2017-07-11T15:48:12.600Z"
+  },
+  {
+    "_id": 6,
+    "user": "samy",
+    "build_name": "432459",
+    "state": "accepted",
+    "progress": {
+      "metrics": 100,
+      "build": 100,
+      "unit_test": 100,
+      "functional_test": 100
+    },
+    "stats": {
+      "metrics": {
+        "test": 64,
+        "maintainability": 53,
+        "security": 64,
+        "workmanship": 72
+      },
+      "build": {
+        "build_date": "2017-09-13T18:48:12.600Z"
+      },
+      "unit_test": {
+        "coverage": 0.76,
+        "test_passing": 0.73,
+        "covered": 142,
+        "missed": 10
+      },
+      "functional_test": {
+        "coverage": 0.23,
+        "test_passing": 0.68,
+        "covered": 4321,
+        "missed": 2145
+      }
+    },
+    "time_started": "2017-08-13T12:48:12.600Z"
+  }
+]

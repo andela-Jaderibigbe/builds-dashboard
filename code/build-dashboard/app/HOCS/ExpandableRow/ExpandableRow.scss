@@ -1,0 +1,13 @@
+.compositeRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+}
+
+.stats {
+  padding: 10px;
+}

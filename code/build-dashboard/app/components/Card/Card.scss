@@ -1,0 +1,55 @@
+@import 'theme/variables';
+
+.cardContainer {
+  width: 20%;
+  padding: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+  cursor: pointer;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.cardContainer:hover {
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.isDefault {
+  border-color: $gray;
+  color: $gray;
+}
+
+.isRunning {
+  border-color: $blue;
+  color: $blue;
+  background-image: linear-gradient(
+    to right,
+    rgba($blue, 0.1) 0%,
+    transparent 50%
+  );
+}
+
+.isSuccess {
+  border-color: $green;
+  color: $green;
+  background-image: linear-gradient(
+    to right,
+    rgba($green, 0.1) 0%,
+    transparent 50%
+  );
+}
+
+.isError {
+  border-color: $red;
+  color: $red;
+  background-image: linear-gradient(
+    to right,
+    rgba($red, 0.1) 0%,
+    transparent 50%
+  );
+}

@@ -1,0 +1,51 @@
+@import 'theme/variables';
+
+.resultContainer {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.resultHeader {
+  color: $black;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider {
+  margin: 15px 0;
+}
+
+.subTitle {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.reason {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.errorText {
+  color: $red;
+}
+
+.accepted {
+  color: orange;
+}
+
+.completed {
+  color: $green;
+}
+
+.default {
+  color: $gray;
+}

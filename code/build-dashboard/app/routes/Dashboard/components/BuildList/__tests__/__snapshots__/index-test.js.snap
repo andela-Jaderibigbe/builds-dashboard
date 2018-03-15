@@ -1,0 +1,630 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BuildList /> should render correctly 1`] = `
+<div
+  className="table tableBody"
+>
+  <div
+    className="tableRow tableRow isPending"
+  >
+    <div
+      className="cell changeListCol"
+    >
+      <span
+        className="buildIcon"
+      >
+        <i
+          className="fa fa-hourglass-start"
+        />
+        <span
+          className="buildName"
+          onClick={[Function]}
+        >
+          Tenrox-R1_1235
+        </span>
+      </span>
+    </div>
+    <div
+      className="cell ownerCol"
+    >
+      
+    </div>
+    <div
+      className="cell timeCol"
+    />
+    <div
+      className="cell stateCol"
+    >
+      Pending
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isDefault"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "0%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isDefault"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "0%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isDefault"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "0%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isDefault"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "0%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="tableRow tableRow isRunning"
+  >
+    <div
+      className="cell changeListCol"
+    >
+      <span
+        className="buildIcon"
+      >
+        <i
+          className="fa fa-hourglass-half"
+        />
+        <span
+          className="buildName"
+          onClick={[Function]}
+        >
+          432462
+        </span>
+      </span>
+    </div>
+    <div
+      className="cell ownerCol"
+    >
+      jack
+    </div>
+    <div
+      className="cell timeCol"
+    >
+      10/17/2017 04:48 pm
+    </div>
+    <div
+      className="cell stateCol"
+    >
+      Running
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isRunning"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isRunning"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "20%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isRunning"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "0%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isRunning"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "0%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="tableRow tableRow isRejected"
+  >
+    <div
+      className="cell changeListCol"
+    >
+      <span
+        className="buildIcon"
+      >
+        <i
+          className="fa fa-hourglass-end"
+        />
+        <span
+          className="buildName"
+          onClick={[Function]}
+        >
+          432461
+        </span>
+      </span>
+    </div>
+    <div
+      className="cell ownerCol"
+    >
+      samy
+    </div>
+    <div
+      className="cell timeCol"
+    >
+      10/13/2017 02:48 pm
+    </div>
+    <div
+      className="cell stateCol"
+    >
+      Rejected
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isError"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isSuccess"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isSuccess"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isSuccess"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="tableRow tableRow isSuccess"
+  >
+    <div
+      className="cell changeListCol"
+    >
+      <span
+        className="buildIcon"
+      >
+        <i
+          className="fa fa-hourglass-end"
+        />
+        <span
+          className="buildName"
+          onClick={[Function]}
+        >
+          Tenrox-R1_1234
+        </span>
+      </span>
+    </div>
+    <div
+      className="cell ownerCol"
+    >
+      
+    </div>
+    <div
+      className="cell timeCol"
+    >
+      10/11/2017 12:48 pm
+    </div>
+    <div
+      className="cell stateCol"
+    >
+      Complete
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isSuccess"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isSuccess"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isSuccess"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isSuccess"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="tableRow tableRow isRejected"
+  >
+    <div
+      className="cell changeListCol"
+    >
+      <span
+        className="buildIcon"
+      >
+        <i
+          className="fa fa-hourglass-end"
+        />
+        <span
+          className="buildName"
+          onClick={[Function]}
+        >
+          432460
+        </span>
+      </span>
+    </div>
+    <div
+      className="cell ownerCol"
+    >
+      samy
+    </div>
+    <div
+      className="cell timeCol"
+    >
+      07/11/2017 04:48 pm
+    </div>
+    <div
+      className="cell stateCol"
+    >
+      Rejected
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isError"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isDefault"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "0%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isDefault"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "0%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isDefault"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "0%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="tableRow tableRow isSuccess"
+  >
+    <div
+      className="cell changeListCol"
+    >
+      <span
+        className="buildIcon"
+      >
+        <i
+          className="fa fa-hourglass-end"
+        />
+        <span
+          className="buildName"
+          onClick={[Function]}
+        >
+          432459
+        </span>
+      </span>
+    </div>
+    <div
+      className="cell ownerCol"
+    >
+      samy
+    </div>
+    <div
+      className="cell timeCol"
+    >
+      08/13/2017 01:48 pm
+    </div>
+    <div
+      className="cell stateCol"
+    >
+      Accepted
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isSuccess"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isSuccess"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isSuccess"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="cell statusCol"
+    >
+      <div
+        className="progressBar"
+      >
+        <span
+          className="isSuccess"
+          style={
+            Object {
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,67 @@
+@import 'theme/variables';
+
+.tableBody {
+  overflow-y: scroll;
+  display: block;
+  flex: 1;
+}
+
+.tableRow {
+  width: 98%;
+  margin: 1%;
+  cursor: pointer;
+}
+
+.changeListCol {
+  width: 19%;
+  text-align: left;
+}
+
+.ownerCol {
+  text-align: center;
+  width: 9%;
+}
+
+.timeCol {
+  text-align: center;
+  width: 14%;
+}
+
+.stateCol {
+  text-align: center;
+  width: 14%;
+}
+
+.statusCol {
+  text-align: center;
+  width: 11%;
+}
+
+.buildIcon {
+  i {
+    margin-right: 15px;
+  }
+}
+
+.isRunning {
+  color: $blue;
+  border: 1px solid $blue;
+  // background: linear-gradient(90deg, $blue, white);
+}
+
+.isPending {
+  color: $gray;
+  border: 1px solid $gray;
+}
+
+.isRejected {
+  color: $red;
+  border: 1px solid $red;
+  // background: linear-gradient(90deg, $red, white);
+}
+
+.isSuccess {
+  color: $green;
+  border: 1px solid $green;
+  // background: linear-gradient(90deg, $green, white);
+}

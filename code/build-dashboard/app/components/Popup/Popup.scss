@@ -1,0 +1,65 @@
+/* Popup Component */
+@import 'theme/variables';
+
+.popupBackdrop {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: $z-idx-backdrop;
+  opacity: 0.5;
+  background-color: $global-color-gray-med-dark;
+}
+
+.cpu_footer {
+  padding: 12px 12px;
+  background-color: #f0f0f0;
+  border-top: 2px solid #e5e5e5;
+  border-radius: 0 0 3px 3px;
+  text-align: right;
+}
+
+/* modal animation */
+.sa-fade-enter {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+  &.sa-fade-enter-active {
+    opacity: 1;
+  }
+}
+
+.sa-fade-leave {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+  &.sa-fade-leave-active {
+    opacity: 0.01;
+  }
+}
+
+.sa-fade-slow-enter {
+  opacity: 0.01;
+  transition: opacity 350ms ease-in;
+  &.sa-fade-slow-enter-active {
+    opacity: 1;
+  }
+}
+
+.sa-fade-slow-leave {
+  opacity: 1;
+  transition: opacity 350ms ease-in;
+  &.sa-fade-slow-leave-active {
+    opacity: 0;
+  }
+}
+
+.cpuContent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  z-index: $z-idx-popup;
+}

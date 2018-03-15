@@ -1,0 +1,17 @@
+.noContentContainer {
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  i {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+}

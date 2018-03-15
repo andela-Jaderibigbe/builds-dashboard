@@ -1,0 +1,35 @@
+@import 'theme/variables';
+
+.progressBar {
+  width: 60%;
+  margin: auto;
+  height: 100%;
+  border: 1px solid $darkgray;
+  background-color: $verylightgray;
+}
+
+.progress {
+  height: 100%;
+  display: block;
+}
+
+.isDefault {
+  @extend .progress;
+  background-color: $gray;
+  width: 100%;
+}
+
+.isRunning {
+  @extend .progress;
+  background-color: $blue;
+}
+
+.isSuccess {
+  @extend .progress;
+  background-color: $green;
+}
+
+.isError {
+  @extend .progress;
+  background-color: $red;
+}

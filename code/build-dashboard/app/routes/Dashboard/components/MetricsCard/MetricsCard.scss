@@ -1,0 +1,43 @@
+@import 'theme/variables';
+
+.cardSection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats {
+  font-size: 35px;
+
+  i {
+    margin-left: 5px;
+  }
+}
+
+.labelText {
+  color: $black;
+  font-weight: 500;
+}
+
+.valueDrop {
+  color: $red;
+}
+
+.valueStable {
+  color: $green;
+}
+
+.bottomStat {
+  @extend .labelText;
+
+  i {
+    color: orange;
+  }
+}

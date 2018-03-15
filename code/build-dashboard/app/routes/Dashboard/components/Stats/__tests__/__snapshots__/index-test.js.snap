@@ -1,0 +1,407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stats /> should render correctly 1`] = `
+<div
+  className="stats"
+>
+  <div
+    className="cardContainer isError"
+    onClick={undefined}
+  >
+    <div
+      className="title"
+    >
+      Metrics
+    </div>
+    <div
+      className="cardBody"
+    >
+      <span>
+        <div
+          className="cardSection"
+        >
+          <div
+            className="statItem"
+          >
+            <span
+              className="stats valueStable"
+            >
+              64
+              <i
+                className="fa fa-arrow-circle-up"
+              />
+            </span>
+            <span
+              className="labelText"
+            >
+              Test
+            </span>
+          </div>
+          <div
+            className="statItem"
+          >
+            <span
+              className="stats valueDrop"
+            >
+              53
+              <i
+                className="fa fa-arrow-circle-down"
+              />
+            </span>
+            <span
+              className="labelText"
+            >
+              Maintainability
+            </span>
+          </div>
+        </div>
+        <div
+          className="cardSection"
+        >
+          <div
+            className="statItem"
+          >
+            <span
+              className="stats bottomStat"
+            >
+              64
+              <i
+                className="fa fa-arrow-circle-right"
+              />
+            </span>
+            <span
+              className="labelText"
+            >
+              Security
+            </span>
+          </div>
+          <div
+            className="statItem"
+          >
+            <span
+              className="stats bottomStat"
+            >
+              72
+              <i
+                className="fa fa-arrow-circle-right"
+              />
+            </span>
+            <span
+              className="labelText"
+            >
+              Workmanship
+            </span>
+          </div>
+        </div>
+      </span>
+    </div>
+  </div>
+  <div
+    className="cardContainer isSuccess"
+    onClick={undefined}
+  >
+    <div
+      className="title"
+    >
+      Build
+    </div>
+    <div
+      className="cardBody"
+    >
+      <span>
+        <div
+          className="stat"
+        >
+          <span
+            className="statItem"
+          >
+            <i
+              className="fa fa-laptop"
+            />
+            <span
+              className="labelText"
+            >
+              Debug
+            </span>
+          </span>
+          <span
+            className="statItem"
+          >
+            <i
+              className="fa fa-laptop"
+            />
+            <span
+              className="labelText"
+            >
+              Release
+            </span>
+          </span>
+        </div>
+        <div
+          className="bottomLabel"
+        >
+          11:48 am - 10/15/2017
+        </div>
+      </span>
+    </div>
+  </div>
+  <div
+    className="cardContainer isSuccess"
+    onClick={undefined}
+  >
+    <div
+      className="title"
+    >
+      Unit Test
+    </div>
+    <div
+      className="cardBody"
+    >
+      <span>
+        <div
+          className="chartStatsContainer"
+        >
+          <div
+            className="pieChartContainer"
+          >
+            <div
+              className="pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d"
+            >
+              <style
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": ".pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .pie-chart-slice{stroke: #fff;
+stroke-width: 1;
+opacity: 1;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .pie-chart-slice:hover{opacity: 0.8;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .pie-chart-label{font-family: sans-serif;
+font-size: 12px;
+text-anchor: middle;
+fill: #000;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .bar{fill: blue;
+transition: x 0.35s ease-in, y 0.35s ease-in, height 0.5s ease-in, width 0.5s ease-in;
+opacity: 1;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .bar:hover{opacity: 0.8;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .line{fill: none;
+stroke-width: 1.5;
+opacity: 0.7;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .line:hover{opacity: 1;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .area{opacity: 0.7;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .area:hover{opacity: 1;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .dot{stroke-width: 0;
+opacity: 0.85;
+transition: cx 0.35s ease-in, cy 0.35s ease-in, r 0.5s ease-in;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .dot:hover{opacity: 1;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d circle.data-point{r: 4px;
+opacity: 0.7;
+transition: cx 0.35s ease-in, cy 0.35s ease-in;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d circle.data-point:hover{r: 6px;
+opacity: 1;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d circle.tick-circle{r: 2px;
+fill: lightgrey;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .x circle.tick-circle{cy: 8px;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .axis{font-family: dobra-light,Arial,sans-serif;
+font-size: 9px;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .axis .label{font: 14px arial;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .axis path,.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .axis line{fill: none;
+stroke-width: 1;
+shape-rendering: crispEdges;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d x.axis path{display: none;
+stroke: lightgrey;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .tick line{stroke: lightgrey;
+stroke-width: 1;
+opacity: 0.7;}.pie-chart-f564ef72ba18fa82c778ec5e18804f82c905443d .chart_text{font-size: 0.8em;
+fill: #fff;}",
+                  }
+                }
+              />
+              <svg
+                height={100}
+                style={Object {}}
+                width={100}
+              >
+                <g
+                  id="slices-f564ef72ba18fa82c778ec5e18804f82c905443d"
+                  style={Object {}}
+                  transform="translate(50, 50)"
+                />
+                <g
+                  id="labels-f564ef72ba18fa82c778ec5e18804f82c905443d"
+                  style={Object {}}
+                  transform="translate(50, 50)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="totalTests"
+          >
+            <span
+              className="titleText"
+            >
+              73%
+            </span>
+            <span
+              className="info"
+            >
+              tests passed
+            </span>
+          </div>
+        </div>
+        <div
+          className="coverageContainer"
+        >
+          <span
+            className="coverageCovered"
+            style={
+              Object {
+                "opacity": 1,
+                "width": "76%",
+              }
+            }
+          />
+          <span
+            className="summary"
+          >
+            <span
+              className="statsText"
+            >
+              76%
+            </span>
+            <span
+              className="info"
+            >
+              code covered
+            </span>
+          </span>
+        </div>
+      </span>
+    </div>
+  </div>
+  <div
+    className="cardContainer isSuccess"
+    onClick={undefined}
+  >
+    <div
+      className="title"
+    >
+      Functional Test
+    </div>
+    <div
+      className="cardBody"
+    >
+      <span>
+        <div
+          className="chartStatsContainer"
+        >
+          <div
+            className="pieChartContainer"
+          >
+            <div
+              className="pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0"
+            >
+              <style
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": ".pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .pie-chart-slice{stroke: #fff;
+stroke-width: 1;
+opacity: 1;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .pie-chart-slice:hover{opacity: 0.8;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .pie-chart-label{font-family: sans-serif;
+font-size: 12px;
+text-anchor: middle;
+fill: #000;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .bar{fill: blue;
+transition: x 0.35s ease-in, y 0.35s ease-in, height 0.5s ease-in, width 0.5s ease-in;
+opacity: 1;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .bar:hover{opacity: 0.8;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .line{fill: none;
+stroke-width: 1.5;
+opacity: 0.7;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .line:hover{opacity: 1;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .area{opacity: 0.7;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .area:hover{opacity: 1;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .dot{stroke-width: 0;
+opacity: 0.85;
+transition: cx 0.35s ease-in, cy 0.35s ease-in, r 0.5s ease-in;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .dot:hover{opacity: 1;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 circle.data-point{r: 4px;
+opacity: 0.7;
+transition: cx 0.35s ease-in, cy 0.35s ease-in;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 circle.data-point:hover{r: 6px;
+opacity: 1;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 circle.tick-circle{r: 2px;
+fill: lightgrey;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .x circle.tick-circle{cy: 8px;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .axis{font-family: dobra-light,Arial,sans-serif;
+font-size: 9px;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .axis .label{font: 14px arial;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .axis path,.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .axis line{fill: none;
+stroke-width: 1;
+shape-rendering: crispEdges;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 x.axis path{display: none;
+stroke: lightgrey;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .tick line{stroke: lightgrey;
+stroke-width: 1;
+opacity: 0.7;}.pie-chart-bd29bc867a73552438ff128241eef5a0dded9ab0 .chart_text{font-size: 0.8em;
+fill: #fff;}",
+                  }
+                }
+              />
+              <svg
+                height={100}
+                style={Object {}}
+                width={100}
+              >
+                <g
+                  id="slices-bd29bc867a73552438ff128241eef5a0dded9ab0"
+                  style={Object {}}
+                  transform="translate(50, 50)"
+                />
+                <g
+                  id="labels-bd29bc867a73552438ff128241eef5a0dded9ab0"
+                  style={Object {}}
+                  transform="translate(50, 50)"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="totalTests"
+          >
+            <span
+              className="titleText"
+            >
+              68%
+            </span>
+            <span
+              className="info"
+            >
+              tests passed
+            </span>
+          </div>
+        </div>
+        <div
+          className="coverageContainer"
+        >
+          <span
+            className="coverageCovered"
+            style={
+              Object {
+                "opacity": 1,
+                "width": "23%",
+              }
+            }
+          />
+          <span
+            className="summary"
+          >
+            <span
+              className="statsText"
+            >
+              23%
+            </span>
+            <span
+              className="info"
+            >
+              code covered
+            </span>
+          </span>
+        </div>
+      </span>
+    </div>
+  </div>
+  <div
+    className="resultContainer"
+  >
+    <div
+      className="resultHeader"
+    >
+      Result:
+    </div>
+    <div
+      className="resultBody"
+    >
+      <div
+        className="subTitle"
+      >
+        Change Rejected
+      </div>
+      <div
+        className="reason"
+      >
+        Metrics Reduction
+      </div>
+      <button
+        className="buttonContainer undefined"
+        disabled={undefined}
+        onClick={[Function]}
+      >
+        Find Issues
+      </button>
+    </div>
+  </div>
+</div>
+`;

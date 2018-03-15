@@ -1,0 +1,62 @@
+@import 'theme/variables';
+
+$lightgreen: #c8dfb8;
+$lightorange: #f5ccb1;
+
+.coverageContainer {
+  height: 30px;
+  background-color: $lightorange;
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.coverageCovered {
+  background-color: $lightgreen;
+  display: block;
+  height: inherit;
+  position: absolute;
+}
+
+.summary {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.statsText {
+  font-size: 15px;
+  font-weight: 500;
+  color: $black;
+}
+
+.info {
+  font-size: 10px;
+  color: $black;
+}
+
+.chartStatsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.totalTests {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleText {
+  font-size: 35px;
+}
+
+.pieChartContainer {
+  width: 45%;
+}

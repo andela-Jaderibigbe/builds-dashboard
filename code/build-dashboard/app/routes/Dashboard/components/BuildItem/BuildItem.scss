@@ -1,0 +1,85 @@
+@import 'theme/variables';
+
+.tableRow {
+  width: 98%;
+  margin: 1%;
+}
+
+.changeListCol {
+  width: 19%;
+  text-align: left;
+}
+
+.ownerCol {
+  text-align: center;
+  width: 9%;
+}
+
+.timeCol {
+  text-align: center;
+  width: 14%;
+}
+
+.stateCol {
+  text-align: center;
+  width: 14%;
+}
+
+.statusCol {
+  text-align: center;
+  width: 11%;
+}
+
+.buildName {
+  cursor: pointer;
+}
+
+.buildName:hover {
+  text-decoration: underline;
+}
+
+.buildIcon {
+  i {
+    margin-right: 15px;
+  }
+}
+
+.isRunning {
+  color: $blue;
+  border: 1px solid $blue;
+  background-image: linear-gradient(
+    to right,
+    rgba($blue, 0.1) 0%,
+    transparent 50%
+  );
+}
+
+.isPending {
+  color: $gray;
+  border: 1px solid $gray;
+  background-image: linear-gradient(
+    to right,
+    rgba($gray, 0.1) 0%,
+    transparent 50%
+  );
+}
+
+.isRejected {
+  color: $red;
+  border: 1px solid $red;
+  background-image: linear-gradient(
+    to right,
+    rgba($red, 0.1) 0%,
+    transparent 50%
+  );
+}
+
+.isSuccess {
+  color: $green;
+  border: 1px solid $green;
+  background-image: linear-gradient(
+    to right,
+    rgba($green, 0.1) 0%,
+    transparent 50%
+  );
+}

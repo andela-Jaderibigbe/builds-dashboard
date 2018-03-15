@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BuildItem /> should render correctly 1`] = `
+<div
+  className="tableRow tableRow isRejected"
+>
+  <div
+    className="cell changeListCol"
+  >
+    <span
+      className="buildIcon"
+    >
+      <i
+        className="fa fa-hourglass-end"
+      />
+      <span
+        className="buildName"
+        onClick={[Function]}
+      >
+        432461
+      </span>
+    </span>
+  </div>
+  <div
+    className="cell ownerCol"
+  >
+    samy
+  </div>
+  <div
+    className="cell timeCol"
+  >
+    10/13/2017 02:48 pm
+  </div>
+  <div
+    className="cell stateCol"
+  >
+    Rejected
+  </div>
+  <div
+    className="cell statusCol"
+  >
+    <div
+      className="progressBar"
+    >
+      <span
+        className="isError"
+        style={
+          Object {
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="cell statusCol"
+  >
+    <div
+      className="progressBar"
+    >
+      <span
+        className="isSuccess"
+        style={
+          Object {
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="cell statusCol"
+  >
+    <div
+      className="progressBar"
+    >
+      <span
+        className="isSuccess"
+        style={
+          Object {
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="cell statusCol"
+  >
+    <div
+      className="progressBar"
+    >
+      <span
+        className="isSuccess"
+        style={
+          Object {
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,49 @@
+@import 'theme/variables';
+
+.dashboard {
+  border: 1px solid $gray;
+  border-collapse: collapse;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+
+.tableBody {
+  overflow-y: scroll;
+  display: block;
+  flex: 1;
+}
+
+.tableRow {
+  border-bottom: 1px solid $lightgray;
+}
+
+.tableFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.changeListCol {
+  width: 19%;
+  text-align: left;
+}
+
+.ownerCol {
+  text-align: center;
+  width: 9%;
+}
+
+.timeCol {
+  text-align: center;
+  width: 14%;
+}
+
+.stateCol {
+  text-align: center;
+  width: 14%;
+}
+
+.statusCol {
+  text-align: center;
+  width: 11%;
+}

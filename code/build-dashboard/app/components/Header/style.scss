@@ -1,0 +1,13 @@
+@import 'theme/variables';
+
+.header {
+  position: relative;
+  display: flex;
+  margin: 2em 0;
+}
+
+@media only screen and (max-width: 28em) {
+  .header {
+    flex-wrap: wrap;
+  }
+}

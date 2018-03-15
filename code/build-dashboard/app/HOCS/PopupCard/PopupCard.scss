@@ -1,0 +1,35 @@
+@import 'theme/variables';
+
+.wrapperContainer {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.cardPopup {
+  top: 40%;
+  width: 400px;
+  height: 225px;
+}
+
+.popupHeader {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  color: $black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  > h4 {
+    margin: 0px;
+    min-height: 16px;
+    font-weight: 500;
+  }
+}
+
+.popupBody {
+  margin: 15px;
+}
+
+.close {
+  font-size: 16px;
+}

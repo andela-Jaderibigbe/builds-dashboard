@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="table undefined"
+>
+  <div
+    className="tableHeader undefined"
+  >
+    <div
+      className="unique"
+    />
+  </div>
+  <div
+    className="table undefined"
+  >
+    <div
+      className="tableRow undefined"
+    >
+      <div
+        className="unique"
+      />
+    </div>
+  </div>
+</div>
+`;
